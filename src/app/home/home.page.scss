@@ -1,0 +1,58 @@
+ion-content{
+  text-align: center;
+  --padding-top: 40px;
+  --padding-start: 20px;
+  --padding-end: 20px;
+  --background:rgb(255, 255, 255) url("../../assets/festa.jpg");
+  --background-repeat: no-repeat;
+
+}
+
+.quantidade{
+  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-left: 9%;
+  border: 2px solid #753D3D;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 80%;
+  font-weight:550;
+  color: #753D3D;
+}
+
+ion-label{
+  padding: 8px 5px 8px 8px;
+}
+
+ion-button{
+  --background: #753D3D;
+  --background-activated: #BF6363;
+  width: 120px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+h1{
+  color: #753D3D;
+  font-weight: 800;
+}
+
+#totalFesta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2px 0 0 0;  
+}
+.itens{
+  background-color: white;
+  height: 55px;
+  border: 2px solid #753D3D;
+  border-radius: 10px;
+  padding-top: 10px;
+  width: 80%;
+  font-weight:550;
+  color: #753D3D;
+  margin: 10px 0 10px 0;
+}
+
+

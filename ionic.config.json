@@ -1,0 +1,7 @@
+{
+  "name": "festa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,21 @@
+<ion-content>
+  <h1>CALCULADORA FESTA</h1>
+<ion-item class="quantidade">
+  <ion-label>Adultos:</ion-label>
+  <ion-input type="number" [(ngModel)]="quantidadeAdulto"></ion-input>
+</ion-item>
+
+<ion-item class="quantidade">
+  <ion-label>Crianças:</ion-label>
+  <ion-input type="number" [(ngModel)]="quantidadeCrianca"></ion-input>
+</ion-item>
+
+<ion-button (click)="calcular()">Calcular</ion-button>
+<div id="totalFesta">
+<h1>QUANTIDADE</h1>
+<h2 class="itens">Salgados: {{totalSalgado}}un </h2>
+<h2 class="itens">Refrigerante: {{totalRefrigerante}}L </h2>
+<h2 class="itens">Bolo: {{totalBolo}}Kg </h2>
+</div>
+
+</ion-content>
